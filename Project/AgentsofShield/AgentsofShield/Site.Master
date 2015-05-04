@@ -39,7 +39,8 @@
         <div class="content-wrapper">
             <div class="float-left">
                 <p class="site-title">
-                    <a runat="server" href="~/">your logo here</a></p>
+                    <img src="Images/Agents_of_S.H.I.E.L.D._logo.png" alt="Agents of Shield Logo" style="width:405px;height:114px">
+                </p>
             </div>
             <div class="float-right">
                 <section id="login">

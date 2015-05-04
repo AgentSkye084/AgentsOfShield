@@ -12,5 +12,19 @@
     </section>
 </asp:Content>
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:AgentsOfShieldConnectionString %>" SelectCommand="SELECT * FROM [Team]"></asp:SqlDataSource>
+    <strong><span class="auto-style1">Current Teams of S.H.I.E.L.D</span></strong><asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:AgentsOfShieldConnectionString %>" SelectCommand="SELECT * FROM [Team]"></asp:SqlDataSource>
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="TeamID" DataSourceID="SqlDataSource1">
+        <Columns>
+            <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" />
+            <asp:BoundField DataField="TeamID" HeaderText="TeamID" ReadOnly="True" SortExpression="TeamID" />
+        </Columns>
+    </asp:GridView>
 </asp:Content>
+<asp:Content ID="Content1" runat="server" contentplaceholderid="HeadContent">
+    <style type="text/css">
+        .auto-style1 {
+            font-size: medium;
+        }
+    </style>
+</asp:Content>
+
