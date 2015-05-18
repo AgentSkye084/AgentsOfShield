@@ -44,6 +44,12 @@
             </div>
             <div class="float-right">
                 <section id="login">
+                    <ul id="menu">
+                        <li><a runat="server" href="~/">Home</a></li>
+                        <li><a runat="server" href="~/About">About S.H.I.E.L.D</a></li>
+                        <li><a runat="server" href="~/Contact">Contact Us</a></li>
+                        <li><a runat="server" href="~/Account/MembersOnly.aspx">Member's Team View</a></li>
+                    </ul>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
                             <ul>
@@ -62,11 +68,6 @@
                     </asp:LoginView>
                 </section>
                 <nav>
-                    <ul id="menu">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About S.H.I.E.L.D</a></li>
-                        <li><a runat="server" href="~/Contact">Contact Us</a></li>
-                    </ul>
                 </nav>
             </div>
         </div>
