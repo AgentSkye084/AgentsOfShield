@@ -14,11 +14,20 @@ Option Explicit On
 Partial Public Class Login
 
     '''<summary>
-    '''myLogin control.
+    '''RegisterHyperLink control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents myLogin As Global.System.Web.UI.WebControls.Login
+    Protected WithEvents RegisterHyperLink As Global.System.Web.UI.WebControls.HyperLink
+
+    '''<summary>
+    '''OpenAuthLogin control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents OpenAuthLogin As Global.AgentsofShield.OpenAuthProviders
 End Class
