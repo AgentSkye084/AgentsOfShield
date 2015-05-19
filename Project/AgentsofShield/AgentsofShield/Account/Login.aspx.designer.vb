@@ -14,11 +14,29 @@ Option Explicit On
 Partial Public Class Login
 
     '''<summary>
-    '''myLogin control.
+    '''SqlDataSource1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents myLogin As Global.System.Web.UI.WebControls.Login
+    Protected WithEvents SqlDataSource1 As Global.System.Web.UI.WebControls.SqlDataSource
+
+    '''<summary>
+    '''Login1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Login1 As Global.System.Web.UI.WebControls.Login
+
+    '''<summary>
+    '''RegisterHyperLink control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RegisterHyperLink As Global.System.Web.UI.WebControls.HyperLink
 End Class
