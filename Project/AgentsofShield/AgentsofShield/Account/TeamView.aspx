@@ -1,9 +1,16 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" CodeBehind="MembersOnly.aspx.vb" Inherits="AgentsofShield.MembersOnly" %>
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" CodeBehind="TeamView.aspx.vb" Inherits="AgentsofShield.MembersOnly" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="FeaturedContent" runat="server">
-    <p>
-        Welcome Agent <strong><%: User.Identity.Name %></strong>, we have plenty of work to attend to</p>
+      <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>Team View Page</h1>
+            </hgroup>
+            <p>
+                Here you can view all the members of your team</p>
+        </div>
+    </section>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
     <ol>
@@ -14,7 +21,7 @@
     </li>
     <li>
       <asp:Label runat="server" AssociatedControlID="Password">Password</asp:Label>
-      <asp:TextBox runat="server" ID="Password" />
+      <asp:TextBox runat="server" ID="Password" TextMode="Password"/>
       <asp:RequiredFieldValidator runat="server" ControlToValidate="Password" CssClass="field-validation-error" ErrorMessage="The Password field is required." />
     </li>
     </ol>
@@ -24,12 +31,14 @@
             <asp:ControlParameter ControlID="Password" Name="Password" PropertyName="Text" Type="String" />
         </SelectParameters>
     </asp:SqlDataSource>
+
     <asp:Button ID="Submit" runat="server" Text="Submit" />
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1">
         <Columns>
-            <asp:BoundField DataField="CodeName" HeaderText="CodeName" SortExpression="CodeName" />
-            <asp:BoundField DataField="Status" HeaderText="Status" SortExpression="Status" />
-            <asp:BoundField DataField="AccessLevel" HeaderText="AccessLevel" SortExpression="AccessLevel" />
+            <asp:BoundField DataField="Team Name" HeaderText="Team Name" SortExpression="Team Name" ReadOnly="True" />
+            <asp:BoundField DataField="AgentID" HeaderText="AgentID" SortExpression="AgentID" ReadOnly="True" />
+            <asp:BoundField DataField="CodeName" HeaderText="CodeName" SortExpression="CodeName" ReadOnly="True" />
+            <asp:BoundField DataField="Name" HeaderText="Name" ReadOnly="True" SortExpression="Name" />
         </Columns>
     </asp:GridView>
 </asp:Content>

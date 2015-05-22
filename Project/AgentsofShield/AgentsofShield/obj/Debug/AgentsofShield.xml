@@ -6,7 +6,583 @@ AgentsofShield
 </name>
 </assembly>
 <members>
-<member name="F:AgentsofShield.RegisterExternalLogin.userNameForm">
+<member name="F:AgentsofShield.AddSuperhero.CAgent_ID">
+	<summary>
+CAgent_ID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddSuperhero.CPassword">
+	<summary>
+CPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddSuperhero.Name">
+	<summary>
+Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddSuperhero.HandlerID">
+	<summary>
+HandlerID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddSuperhero.Team_ID">
+	<summary>
+Team_ID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddSuperhero.Abilities">
+	<summary>
+Abilities control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddSuperhero.TrustLevel">
+	<summary>
+TrustLevel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddSuperhero.AccessLevel">
+	<summary>
+AccessLevel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddSuperhero.Submit">
+	<summary>
+Submit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddSuperhero.SqlDataSource4">
+	<summary>
+SqlDataSource4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddSuperhero.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddSuperhero.GridView1">
+	<summary>
+GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.OperationDetailView.Agent_ID2">
+	<summary>
+Agent_ID2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.OperationDetailView.Password2">
+	<summary>
+Password2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.OperationDetailView.DropDownList1">
+	<summary>
+DropDownList1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.OperationDetailView.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.OperationDetailView.Submit2">
+	<summary>
+Submit2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.OperationDetailView.GridView2">
+	<summary>
+GridView2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AgentDetailed.Agent_ID">
+	<summary>
+Agent_ID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AgentDetailed.Password">
+	<summary>
+Password control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AgentDetailed.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AgentDetailed.Submit">
+	<summary>
+Submit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AgentDetailed.GridView1">
+	<summary>
+GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AssignTeam.CAgent_ID">
+	<summary>
+CAgent_ID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AssignTeam.CPassword">
+	<summary>
+CPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AssignTeam.Name">
+	<summary>
+Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AssignTeam.Team_ID">
+	<summary>
+Team_ID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AssignTeam.SqlDataSource4">
+	<summary>
+SqlDataSource4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AssignTeam.Submit">
+	<summary>
+Submit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AssignTeam.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AssignTeam.GridView1">
+	<summary>
+GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.BaseInfo.Agent_ID2">
+	<summary>
+Agent_ID2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.BaseInfo.Password2">
+	<summary>
+Password2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.BaseInfo.DropDownList2">
+	<summary>
+DropDownList2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.BaseInfo.SqlDataSourceBases">
+	<summary>
+SqlDataSourceBases control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.BaseInfo.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.BaseInfo.Submit2">
+	<summary>
+Submit2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.BaseInfo.GridView2">
+	<summary>
+GridView2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddAgent.CAgent_ID">
+	<summary>
+CAgent_ID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddAgent.CPassword">
+	<summary>
+CPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddAgent.Agent_ID1">
+	<summary>
+Agent_ID1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddAgent.Password1">
+	<summary>
+Password1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddAgent.Base_ID">
+	<summary>
+Base_ID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddAgent.Team_ID">
+	<summary>
+Team_ID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddAgent.FName">
+	<summary>
+FName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddAgent.LName">
+	<summary>
+LName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddAgent.CodeName">
+	<summary>
+CodeName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddAgent.AccessLevel">
+	<summary>
+AccessLevel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddAgent.SqlDataSource3">
+	<summary>
+SqlDataSource3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddAgent.Submit">
+	<summary>
+Submit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddAgent.SqlDataSource4">
+	<summary>
+SqlDataSource4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddAgent.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddAgent.GridView1">
+	<summary>
+GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddOperation.CAgent_ID">
+	<summary>
+CAgent_ID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddOperation.CPassword">
+	<summary>
+CPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddOperation.Name">
+	<summary>
+Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddOperation.Objective">
+	<summary>
+Objective control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddOperation.Status">
+	<summary>
+Status control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddOperation.Difficulty">
+	<summary>
+Difficulty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddOperation.Priority">
+	<summary>
+Priority control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddOperation.Submit">
+	<summary>
+Submit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddOperation.SqlDataSource4">
+	<summary>
+SqlDataSource4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddOperation.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddOperation.GridView1">
+	<summary>
+GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.MembersOnly.Agent_ID2">
+	<summary>
+Agent_ID2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.MembersOnly.Password2">
+	<summary>
+Password2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.MembersOnly.DropDownList1">
+	<summary>
+DropDownList1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.MembersOnly.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.MembersOnly.Submit2">
+	<summary>
+Submit2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.MembersOnly.GridView2">
+	<summary>
+GridView2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.Teams.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.Teams.GridView1">
+	<summary>
+GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.RegisterExternalLogin.userNameForm">
 	<summary>
 userNameForm control.
 </summary>
@@ -46,6 +622,46 @@ MainContent control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:AgentsofShield.MembersOnly.Agent_ID">
+	<summary>
+Agent_ID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.MembersOnly.Password">
+	<summary>
+Password control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.MembersOnly.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.MembersOnly.Submit">
+	<summary>
+Submit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.MembersOnly.GridView1">
+	<summary>
+GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:AgentsofShield.OpenAuthProviders.providerDetails">
 	<summary>
 providerDetails control.
@@ -78,22 +694,6 @@ RegisterHyperLink control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:AgentsofShield._Default.SqlDataSource1">
-	<summary>
-SqlDataSource1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:AgentsofShield._Default.GridView1">
-	<summary>
-GridView1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
 </member><member name="P:AgentsofShield.My.MyWebExtension.Computer">
 	<summary>
  Returns information about the host computer.
@@ -119,6 +719,86 @@ To modify move field declaration from designer file to code-behind file.
  Module used to define the properties that are available in the My Namespace for Web projects.
  </summary>
 	<remarks></remarks>
+</member><member name="F:AgentsofShield.AgentsBasic.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AgentsBasic.GridView1">
+	<summary>
+GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddTeam.CAgent_ID">
+	<summary>
+CAgent_ID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddTeam.CPassword">
+	<summary>
+CPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddTeam.Team_ID">
+	<summary>
+Team_ID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddTeam.TeamName">
+	<summary>
+TeamName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddTeam.Submit">
+	<summary>
+Submit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddTeam.SqlDataSource4">
+	<summary>
+SqlDataSource4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddTeam.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.AddTeam.GridView1">
+	<summary>
+GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:AgentsofShield.Site_Mobile.Head1">
 	<summary>
 Head1 control.
@@ -167,6 +847,22 @@ ViewSwitcher1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:AgentsofShield.Targets.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AgentsofShield.Targets.GridView1">
+	<summary>
+GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:AgentsofShield.Register.RegisterUser">
 	<summary>
 RegisterUser control.
@@ -183,23 +879,7 @@ RegisterUserWizardStep control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:AgentsofShield.MembersOnly.Agent_ID">
-	<summary>
-Agent_ID control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:AgentsofShield.MembersOnly.Password">
-	<summary>
-Password control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:AgentsofShield.MembersOnly.SqlDataSource1">
+</member><member name="F:AgentsofShield.Superheros.SqlDataSource1">
 	<summary>
 SqlDataSource1 control.
 </summary>
@@ -207,15 +887,7 @@ SqlDataSource1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:AgentsofShield.MembersOnly.Submit">
-	<summary>
-Submit control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:AgentsofShield.MembersOnly.GridView1">
+</member><member name="F:AgentsofShield.Superheros.GridView1">
 	<summary>
 GridView1 control.
 </summary>

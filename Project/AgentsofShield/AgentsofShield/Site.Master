@@ -48,14 +48,32 @@
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/About">About S.H.I.E.L.D</a></li>
                         <li><a runat="server" href="~/Contact">Contact Us</a></li>
-                        <li><a runat="server" href="~/Account/MembersOnly.aspx">Member's Team View</a></li>
+                    </ul>
+                    <p></p>
+                    <ul id="Options">
+                        <li><a runat="server" href="~/Account/TeamView.aspx">Team View</a></li>
+                        <li><a runat="server" href="~/Account/OperationView.aspx">Operations</a></li>
+                        <li><a runat="server" href="~/Account/OperationDetailView.aspx">Operation Detail</a></li>
+                        <li><a runat="server" href="~/Account/BaseInfo.aspx">Base Detail</a></li>
+                    </ul>
+                    <p></p>
+                    <ul id="Adding">
+                        <li><a runat="server" href="~/Account/AddAgent.aspx">Add an Agent</a></li>
+                        <li><a runat="server" href="~/Account/AddSuperhero.aspx">Add a Superhero</a></li>
+                        <li><a runat="server" href="~/Account/AddTeam.aspx">Add a Team</a></li>
+                        <li><a runat="server" href="~/Account/AddOperation.aspx">Add an Op</a></li>
+                    </ul>
+                        <p></p>
+                    <ul id="Views">
+                        <li><a runat="server" href="~/Account/Teams.aspx">Teams</a></li>
+                        <li><a runat="server" href="~/Account/Targets.aspx">Targets</a></li>
+                        <li><a runat="server" href="~/Account/Superheros.aspx">Superheros</a></li>
+                        <li><a runat="server" href="~/Account/AgentsBasic.aspx">Agents</a></li>
+                        <li><a runat="server" href="~/Account/AgentDetailed.aspx">Agents Info</a></li>
                     </ul>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
-                            <ul>
-                                <li><a id="registerLink" runat="server" href="~/Account/Register">Register to be an Agent</a></li>
-                                <li><a id="loginLink" runat="server" href="~/Account/Login">Agent Sign in</a></li>
-                            </ul>
+
                         </AnonymousTemplate>
                         <LoggedInTemplate>
                             <p>

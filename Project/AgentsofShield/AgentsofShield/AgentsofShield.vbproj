@@ -151,10 +151,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Account\AddAgent.aspx" />
+    <Content Include="Account\AddOperation.aspx" />
+    <Content Include="Account\AddSuperhero.aspx" />
+    <Content Include="Account\AddTeam.aspx" />
+    <Content Include="Account\AgentDetailed.aspx" />
+    <Content Include="Account\AgentsBasic.aspx" />
+    <Content Include="Account\AssignTeam.aspx" />
+    <Content Include="Account\BaseInfo.aspx" />
     <Content Include="Account\Images\Agents_of_S.H.I.E.L.D._logo.png" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Manage.aspx" />
-    <Content Include="Account\MembersOnly.aspx" />
+    <Content Include="Account\OperationDetailView.aspx" />
+    <Content Include="Account\OperationView.aspx" />
+    <Content Include="Account\Superheros.aspx" />
+    <Content Include="Account\Targets.aspx" />
+    <Content Include="Account\Teams.aspx" />
+    <Content Include="Account\TeamView.aspx" />
     <Content Include="Account\OpenAuthProviders.ascx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
@@ -272,11 +285,102 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Account\MembersOnly.aspx.designer.vb">
-      <DependentUpon>MembersOnly.aspx</DependentUpon>
+    <Compile Include="Account\AddAgent.aspx.designer.vb">
+      <DependentUpon>AddAgent.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Account\MembersOnly.aspx.vb">
-      <DependentUpon>MembersOnly.aspx</DependentUpon>
+    <Compile Include="Account\AddAgent.aspx.vb">
+      <DependentUpon>AddAgent.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\AddOperation.aspx.designer.vb">
+      <DependentUpon>AddOperation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\AddOperation.aspx.vb">
+      <DependentUpon>AddOperation.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\AddSuperhero.aspx.designer.vb">
+      <DependentUpon>AddSuperhero.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\AddSuperhero.aspx.vb">
+      <DependentUpon>AddSuperhero.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\AddTeam.aspx.designer.vb">
+      <DependentUpon>AddTeam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\AddTeam.aspx.vb">
+      <DependentUpon>AddTeam.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\AgentDetailed.aspx.designer.vb">
+      <DependentUpon>AgentDetailed.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\AgentDetailed.aspx.vb">
+      <DependentUpon>AgentDetailed.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\AgentsBasic.aspx.designer.vb">
+      <DependentUpon>AgentsBasic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\AgentsBasic.aspx.vb">
+      <DependentUpon>AgentsBasic.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\AssignTeam.aspx.designer.vb">
+      <DependentUpon>AssignTeam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\AssignTeam.aspx.vb">
+      <DependentUpon>AssignTeam.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\BaseInfo.aspx.designer.vb">
+      <DependentUpon>BaseInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\BaseInfo.aspx.vb">
+      <DependentUpon>BaseInfo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\OperationDetailView.aspx.designer.vb">
+      <DependentUpon>OperationDetailView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\OperationDetailView.aspx.vb">
+      <DependentUpon>OperationDetailView.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\OperationView.aspx.designer.vb">
+      <DependentUpon>OperationView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\OperationView.aspx.vb">
+      <DependentUpon>OperationView.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\Superheros.aspx.designer.vb">
+      <DependentUpon>Superheros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Superheros.aspx.vb">
+      <DependentUpon>Superheros.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\Targets.aspx.designer.vb">
+      <DependentUpon>Targets.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Targets.aspx.vb">
+      <DependentUpon>Targets.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\Teams.aspx.designer.vb">
+      <DependentUpon>Teams.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Teams.aspx.vb">
+      <DependentUpon>Teams.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\TeamView.aspx.designer.vb">
+      <DependentUpon>TeamView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\TeamView.aspx.vb">
+      <DependentUpon>TeamView.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="App_Start\BundleConfig.vb" />
